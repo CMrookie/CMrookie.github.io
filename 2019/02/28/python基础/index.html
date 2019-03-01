@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="zh-Hans">
+<head><meta name="generator" content="Hexo 3.8.0">
+
+    <!--[if lt IE 9]>
+        <style>body {display: none; background: none !important} </style>
+        <meta http-equiv="Refresh" Content="0; url=//outdatedbrowser.com/" />
+    <![endif]-->
+
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge, chrome=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="format-detection" content="telephone=no">
+<meta name="author" content="rookie">
+
+
+
+<meta name="description" content="注释python中注释以“#”开头12# 这里的都是注释print(&apos;后面有注释&apos;) # 这是注释 变量python中对变量的定义不需要什么额外的操作，直接写上需要声明的变量并赋值即可。但是声明时没有赋值会报错。123456789param = &apos;this is a varilable&apos;num = 1print(param) -&amp;gt; # this is a varilableprint(num">
+<meta name="keywords" content="学习笔记,Python">
+<meta property="og:type" content="article">
+<meta property="og:title" content="python基础">
+<meta property="og:url" content="http://yoursite.com/2019/02/28/python基础/index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:description" content="注释python中注释以“#”开头12# 这里的都是注释print(&apos;后面有注释&apos;) # 这是注释 变量python中对变量的定义不需要什么额外的操作，直接写上需要声明的变量并赋值即可。但是声明时没有赋值会报错。123456789param = &apos;this is a varilable&apos;num = 1print(param) -&amp;gt; # this is a varilableprint(num">
+<meta property="og:locale" content="zh-Hans">
+<meta property="og:updated_time" content="2019-02-28T17:10:23.152Z">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="python基础">
+<meta name="twitter:description" content="注释python中注释以“#”开头12# 这里的都是注释print(&apos;后面有注释&apos;) # 这是注释 变量python中对变量的定义不需要什么额外的操作，直接写上需要声明的变量并赋值即可。但是声明时没有赋值会报错。123456789param = &apos;this is a varilable&apos;num = 1print(param) -&amp;gt; # this is a varilableprint(num">
+
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+
+
+    <link rel="alternate" href="/atom.xml" title="Hexo" type="application/atom+xml">
+
+
+
+    <link rel="shortcut icon" href="/favicon.png">
+
+
+
+    <link href="//cdn.bootcss.com/animate.css/3.5.1/animate.min.css" rel="stylesheet">
+
+
+
+    <link href="//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.css" rel="stylesheet">
+
+
+
+    <script src="//cdn.bootcss.com/pace/1.0.2/pace.min.js"></script>
+    <link href="//cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-minimal.css" rel="stylesheet">
+
+
+<link rel="stylesheet" href="/css/style.css">
+
+
+
+<link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
+
+
+<title>python基础 | Hexo</title>
+
+<script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+<script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
+
+<script>
+    var yiliaConfig = {
+        fancybox: true,
+        animate: true,
+        isHome: false,
+        isPost: true,
+        isArchive: false,
+        isTag: false,
+        isCategory: false,
+        fancybox_js: "//cdn.bootcss.com/fancybox/2.1.5/jquery.fancybox.min.js",
+        scrollreveal: "//cdn.bootcss.com/scrollReveal.js/3.1.4/scrollreveal.min.js",
+        search: false
+    }
+</script>
+
+
+    <script> yiliaConfig.jquery_ui = [false]; </script>
+
+
+
+    <script> yiliaConfig.rootUrl = "\/";</script>
+
+
+
+
+
+
+</head></html>
+<body>
+  <div id="container">
+    <div class="left-col">
+    <div class="overlay"></div>
+<div class="intrude-less">
+    <header id="header" class="inner">
+        <a href="/" class="profilepic">
+            <img src="/img/avatar.png" class="animated zoomIn">
+        </a>
+        <hgroup>
+          <h1 class="header-author"><a href="/">rookie</a></h1>
+        </hgroup>
+
+        
+
+        
+
+
+        
+            <div id="switch-btn" class="switch-btn">
+                <div class="icon">
+                    <div class="icon-ctn">
+                        <div class="icon-wrap icon-house" data-idx="0">
+                            <div class="birdhouse"></div>
+                            <div class="birdhouse_holes"></div>
+                        </div>
+                        <div class="icon-wrap icon-ribbon hide" data-idx="1">
+                            <div class="ribbon"></div>
+                        </div>
+                        
+                        <div class="icon-wrap icon-link hide" data-idx="2">
+                            <div class="loopback_l"></div>
+                            <div class="loopback_r"></div>
+                        </div>
+                        
+                        
+                        <div class="icon-wrap icon-me hide" data-idx="3">
+                            <div class="user"></div>
+                            <div class="shoulder"></div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+                <div class="tips-box hide">
+                    <div class="tips-arrow"></div>
+                    <ul class="tips-inner">
+                        <li>菜单</li>
+                        <li>标签</li>
+                        
+                        <li>友情链接</li>
+                        
+                        
+                        <li>关于我</li>
+                        
+                    </ul>
+                </div>
+            </div>
+        
+
+        <div id="switch-area" class="switch-area">
+            <div class="switch-wrap">
+                <section class="switch-part switch-part1">
+                    <nav class="header-menu">
+                        <ul>
+                        
+                            <li><a href="/">主页</a></li>
+                        
+                            <li><a href="/archives/">所有文章</a></li>
+                        
+                            <li><a href="/tags/">标签云</a></li>
+                        
+                            <li><a href="/about/">关于我</a></li>
+                        
+                        </ul>
+                    </nav>
+                    <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" href="mailto:944727074@qq.com" title="Email"></a>
+                            
+                                <a class="fa GitHub" href="https://github.com/CMrookie" title="GitHub"></a>
+                            
+                                <a class="fa RSS" href="/atom.xml" title="RSS"></a>
+                            
+                        </ul>
+                    </nav>
+                </section>
+                
+                
+                <section class="switch-part switch-part2">
+                    <div class="widget tagcloud" id="js-tagcloud">
+                        <ul class="tag-list"><li class="tag-list-item"><a class="tag-list-link" href="/tags/Python/">Python</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/blog/">blog</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/first-page/">first page</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hello-world/">hello world</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/http-响应/">http 响应</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/http-状态码/">http 状态码</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/mysql/">mysql</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/学习笔记/">学习笔记</a></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
+                    </div>
+                </section>
+                
+                
+                
+                <section class="switch-part switch-part3">
+                    <div id="js-friends">
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://hexo.io">Hexo</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="https://pages.github.com/">GitHub</a>
+                    
+                      <a class="main-nav-link switch-friends-link" href="http://moxfive.xyz/">MOxFIVE</a>
+                    
+                    </div>
+                </section>
+                
+
+                
+                
+                <section class="switch-part switch-part4">
+                
+                    <div id="js-aboutme">专注于前端</div>
+                </section>
+                
+            </div>
+        </div>
+    </header>                
+</div>
+    </div>
+    <div class="mid-col">
+      <nav id="mobile-nav">
+      <div class="overlay">
+          <div class="slider-trigger"></div>
+          <h1 class="header-author js-mobile-header hide"><a href="/" title="回到主页">rookie</a></h1>
+      </div>
+    <div class="intrude-less">
+        <header id="header" class="inner">
+            <a href="/" class="profilepic">
+                <img src="/img/avatar.png" class="animated zoomIn">
+            </a>
+            <hgroup>
+              <h1 class="header-author"><a href="/" title="回到主页">rookie</a></h1>
+            </hgroup>
+            
+            <nav class="header-menu">
+                <ul>
+                
+                    <li><a href="/">主页</a></li>
+                
+                    <li><a href="/archives/">所有文章</a></li>
+                
+                    <li><a href="/tags/">标签云</a></li>
+                
+                    <li><a href="/about/">关于我</a></li>
+                
+                <div class="clearfix"></div>
+                </ul>
+            </nav>
+            <nav class="header-nav">
+                        <ul class="social">
+                            
+                                <a class="fa Email" target="_blank" href="mailto:944727074@qq.com" title="Email"></a>
+                            
+                                <a class="fa GitHub" target="_blank" href="https://github.com/CMrookie" title="GitHub"></a>
+                            
+                                <a class="fa RSS" target="_blank" href="/atom.xml" title="RSS"></a>
+                            
+                        </ul>
+            </nav>
+        </header>                
+    </div>
+    <link class="menu-list" tags="标签" friends="友情链接" about="关于我">
+</nav>
+      <div class="body-wrap"><article id="post-python基础" class="article article-type-post" itemscope="" itemprop="blogPost">
+  
+    <div class="article-meta">
+      <a href="/2019/02/28/python基础/" class="article-date">
+      <time datetime="2019-02-28T10:40:02.000Z" itemprop="datePublished">2019-02-28</time>
+</a>
+
+
+    </div>
+  
+  <div class="article-inner">
+    
+      <input type="hidden" class="isFancy">
+    
+    
+      <header class="article-header">
+        
+  
+    <h1 class="article-title" itemprop="name">
+      python基础
+    </h1>
+  
+
+      </header>
+      
+      <div class="article-info article-info-post">
+        
+
+        
+    <div class="article-tag tagcloud">
+        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/Python/">Python</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/学习笔记/">学习笔记</a></li></ul>
+    </div>
+
+        <div class="clearfix"></div>
+      </div>
+      
+    
+    <div class="article-entry" itemprop="articleBody">
+      
+          
+        <h4 id="注释"><a href="#注释" class="headerlink" title="注释"></a>注释</h4><p><code>python中注释以“#”开头</code><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># 这里的都是注释</span></span><br><span class="line">print(<span class="string">'后面有注释'</span>) <span class="comment"># 这是注释</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h4><p><code>python中对变量的定义不需要什么额外的操作，直接写上需要声明的变量并赋值即可。但是声明时没有赋值会报错。</code><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">param = <span class="string">'this is a varilable'</span></span><br><span class="line">num = <span class="number">1</span></span><br><span class="line">print(param) -&gt; # this is a varilable</span><br><span class="line">print(num) -&gt; # 1</span><br><span class="line"></span><br><span class="line">x</span><br><span class="line"><span class="comment">#Traceback (most recent call last):</span></span><br><span class="line"><span class="comment">#  File "&lt;stdin&gt;", line 1, in &lt;module&gt;</span></span><br><span class="line"><span class="comment">#NameError: name 'x' is not defined</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="数据类型"><a href="#数据类型" class="headerlink" title="数据类型"></a>数据类型</h4><ul>
+<li>Number</li>
+<li>String</li>
+<li>List</li>
+<li>Tuple</li>
+<li>Set</li>
+<li>Dictionay</li>
+</ul>
+<h4 id="number"><a href="#number" class="headerlink" title="number"></a>number</h4><p><code>python中支持对整数和浮点数直接进行四则运算</code><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">x = <span class="number">1</span></span><br><span class="line">y = <span class="number">2</span></span><br><span class="line">print(x / y)</span><br><span class="line"><span class="comment"># 这里会根据python的版本得出不同的结果</span></span><br><span class="line"><span class="comment"># python 2.7会得到0</span></span><br><span class="line"><span class="comment"># python 3。*这可以得到正确的值</span></span><br><span class="line"><span class="comment"># python 2.7中想要得到正确的计算结果的话可以将其中一个或两个的值都改为浮点数</span></span><br><span class="line"></span><br><span class="line"><span class="comment"># 十六进制</span></span><br><span class="line">x = <span class="number">0x4d</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="string"><a href="#string" class="headerlink" title="string"></a>string</h4><p><code>对字符串的定义方式可以是&#39; &#39;,也可以是&quot; &quot;。</code></p>
+<p><code>在定义的字符串中经常需要使用其他符号，如&#39;,&quot;,\这时可以在字符串中加上前缀r</code></p>
+<p><code>需要多行字符串时可用&#39;&#39;&#39; &#39;&#39;&#39;表示，这就免去了拼接字符串的操作</code><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br></pre></td><td class="code"><pre><span class="line">str1 = <span class="string">'这是字符串'</span></span><br><span class="line">str2 = <span class="string">"这也是字符串"</span></span><br><span class="line">rawStr = <span class="string">r'\(~_~)/ \(~_~)/'</span></span><br><span class="line">mlStr = <span class="string">'''这是</span></span><br><span class="line"><span class="string">多行</span></span><br><span class="line"><span class="string">字符串</span></span><br><span class="line"><span class="string">我是故意这么写的，有本事来打我啊</span></span><br><span class="line"><span class="string">我错了，对不起，这只是的示例'''</span></span><br><span class="line"><span class="comment"># r和多行字符串可以并用，这也使得多行字符串中可以免去转义符的书写</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="list"><a href="#list" class="headerlink" title="list"></a>list</h4><p><code>list是一种有序的集合，可以方便的添加和删除其中的数据</code><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">L = [<span class="string">'Michael'</span>, <span class="string">'Bob'</span>, <span class="string">'Tracy'</span>]</span><br></pre></td></tr></table></figure></p>
+<h4 id="tuple"><a href="#tuple" class="headerlink" title="tuple"></a>tuple</h4><p><code>tuple与 list相似，都是有序集合。但与 list不同的是，tuple一旦创建完就不能修改</code><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">t = (<span class="string">'Michael'</span>, <span class="string">'Bob'</span>, <span class="string">'Tracy'</span>)</span><br><span class="line"><span class="comment"># 因为tuple的创建方式为（），（）也被用于计算时的优先级。因此当创建只有一个</span></span><br><span class="line"><span class="comment"># 元素的tuple时为了避免歧义需要在元素之后添加一个逗号</span></span><br><span class="line">t1 = (<span class="number">1</span>) <span class="comment"># print(t1) -&gt; 1 并不会得到tuple</span></span><br><span class="line">t = (<span class="number">1</span>，) <span class="comment"># print(t) -&gt; （1）</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="set"><a href="#set" class="headerlink" title="set"></a>set</h4><p><code>set与 lis类似，是一组数据的集合，不同的是set是无序的，并且与dict的键不能重名一样，set的元素不能重复</code><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">s = ([<span class="string">'a'</span>, <span class="string">'b'</span>])</span><br></pre></td></tr></table></figure></p>
+<h4 id="dict"><a href="#dict" class="headerlink" title="dict"></a>dict</h4><p><code>dict是一种无序的，以键值对的形式将数据存储于内存堆的数据</code><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">d = &#123;</span><br><span class="line">  <span class="string">'Adam'</span>: <span class="number">95</span>,</span><br><span class="line">  <span class="string">'Lisa'</span>: <span class="number">85</span></span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure></p>
+<h4 id="函数"><a href="#函数" class="headerlink" title="函数"></a>函数</h4><p><code>python中的函数需要以def语句定义，依次写出函数名，括号，括号中的参数，冒号，最后在缩进块中编写函数</code><br><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">greeting</span><span class="params">(greet)</span>:</span></span><br><span class="line">    print(<span class="string">r'%s, it'</span>s fine day<span class="string">' % greet)</span></span><br></pre></td></tr></table></figure></p>
+<h4 id="列表生成式"><a href="#列表生成式" class="headerlink" title="列表生成式"></a>列表生成式</h4><ul>
+<li><h5 id="生成列表"><a href="#生成列表" class="headerlink" title="生成列表"></a>生成列表</h5><p><code>使用range()方法可以方便的生成连续的的简单列表，但是如果需要生成的列表是这样的[1x1, 2x2, 3x3, ..., 10x10]，那么我们就需要编写较长的代码去实现</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment"># [1x1, 2x2, 3x3, ..., 10x10]</span></span><br><span class="line">L = []</span><br><span class="line"><span class="keyword">for</span> i <span class="keyword">in</span> range(<span class="number">1</span>, <span class="number">11</span>):</span><br><span class="line">    L.append(i * i)</span><br></pre></td></tr></table></figure>
+<p><code>此时列表生成式就可以派上用场</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[x * x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">1</span>, <span class="number">11</span>)]</span><br><span class="line"><span class="comment"># [1x1, 2x2, 3x3, ..., 10x10]</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><h5 id="复杂表达式"><a href="#复杂表达式" class="headerlink" title="复杂表达式"></a>复杂表达式</h5><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">d = &#123; <span class="string">'Adam'</span>: <span class="number">95</span>, <span class="string">'Lisa'</span>: <span class="number">85</span>, <span class="string">'Bart'</span>: <span class="number">59</span> &#125;</span><br><span class="line"><span class="function"><span class="keyword">def</span> <span class="title">generate_tr</span><span class="params">(name, score)</span>:</span></span><br><span class="line">    <span class="keyword">if</span> score &lt; <span class="number">60</span>:</span><br><span class="line">        <span class="keyword">return</span> <span class="string">'&lt;tr&gt;&lt;td&gt;%s&lt;/td&gt;&lt;td style="color:red"&gt;%s&lt;/td&gt;&lt;/tr&gt;'</span> % (name, score)</span><br><span class="line">    <span class="keyword">return</span> <span class="string">'&lt;tr&gt;&lt;td&gt;%s&lt;/td&gt;&lt;td&gt;%s&lt;/td&gt;&lt;/tr&gt;'</span> % (name, score)</span><br><span class="line"></span><br><span class="line">tds = [generate_tr(name, score) <span class="keyword">for</span> name, score <span class="keyword">in</span> d.iteritems()]</span><br><span class="line"><span class="keyword">print</span> <span class="string">'&lt;table border="1"&gt;'</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">'&lt;tr&gt;&lt;th&gt;Name&lt;/th&gt;&lt;th&gt;Score&lt;/th&gt;&lt;tr&gt;'</span></span><br><span class="line"><span class="keyword">print</span> <span class="string">'\n'</span>.join(tds)</span><br><span class="line"><span class="keyword">print</span> <span class="string">'&lt;/table&gt;'</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><h5 id="条件过滤"><a href="#条件过滤" class="headerlink" title="条件过滤"></a>条件过滤</h5><p><code>列表生成式的for循环后面可以加上if</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">[x * x <span class="keyword">for</span> x <span class="keyword">in</span> range(<span class="number">1</span>, <span class="number">11</span>) <span class="keyword">if</span> x % <span class="number">2</span> == <span class="number">0</span>]</span><br><span class="line"><span class="comment"># [4, 16, 36, 64, 100]</span></span><br></pre></td></tr></table></figure>
+</li>
+<li><h5 id="多层表达式"><a href="#多层表达式" class="headerlink" title="多层表达式"></a>多层表达式</h5><p><code>列表表达式中也可以用多层for循环生成列表</code></p>
+<figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line">[m + n <span class="keyword">for</span> m <span class="keyword">in</span> <span class="string">'ABC'</span> <span class="keyword">for</span> n <span class="keyword">in</span> <span class="string">'123'</span>]</span><br><span class="line"><span class="comment"># ['A1', 'A2', 'A3', 'B1', 'B2', 'B3', 'C1', 'C2', 'C3']</span></span><br><span class="line"><span class="comment"># 等同于</span></span><br><span class="line">L = []</span><br><span class="line"><span class="keyword">for</span> m <span class="keyword">in</span> <span class="string">'ABC'</span>:</span><br><span class="line">    <span class="keyword">for</span> n <span class="keyword">in</span> <span class="string">'123'</span>:</span><br><span class="line">        L.append(m + n)</span><br></pre></td></tr></table></figure></li>
+</ul>
+
+      
+    </div>
+    
+  </div>
+  
+    
+    <div class="copyright">
+        <p><span>本文标题:</span><a href="/2019/02/28/python基础/">python基础</a></p>
+        <p><span>文章作者:</span><a href="/" title="回到主页">rookie</a></p>
+        <p><span>发布时间:</span>2019-02-28, 18:40:02</p>
+        <p><span>最后更新:</span>2019-03-01, 01:10:23</p>
+        <p>
+            <span>原始链接:</span><a class="post-url" href="/2019/02/28/python基础/" title="python基础">http://yoursite.com/2019/02/28/python基础/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2019/02/28/python基础/　　作者: rookie" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <script> var clipboard = new Clipboard('.copy-path'); </script>
+        </p>
+        <p>
+            <span>许可协议:</span><i class="fa fa-creative-commons"></i> <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/" title="CC BY-NC-SA 4.0 International" target="_blank">"署名-非商用-相同方式共享 4.0"</a> 转载请保留原文链接及作者。
+        </p>
+    </div>
+
+
+
+    <nav id="article-nav">
+        
+            <div id="article-nav-newer" class="article-nav-title">
+                <a href="/2019/03/01/mysql安装/">
+                    mysql安装
+                </a>
+            </div>
+        
+        
+            <div id="article-nav-older" class="article-nav-title">
+                <a href="/2019/02/17/http-状态码/">
+                    http 状态码
+                </a>
+            </div>
+        
+    </nav>
+
+  
+</article>
+
+    <div id="toc" class="toc-article">
+        <strong class="toc-title">文章目录</strong>
+        
+            <ol class="toc"><li class="toc-item toc-level-4"><a class="toc-link" href="#注释"><span class="toc-number">1.</span> <span class="toc-text">注释</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#变量"><span class="toc-number">2.</span> <span class="toc-text">变量</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#数据类型"><span class="toc-number">3.</span> <span class="toc-text">数据类型</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#number"><span class="toc-number">4.</span> <span class="toc-text">number</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#string"><span class="toc-number">5.</span> <span class="toc-text">string</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#list"><span class="toc-number">6.</span> <span class="toc-text">list</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#tuple"><span class="toc-number">7.</span> <span class="toc-text">tuple</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#set"><span class="toc-number">8.</span> <span class="toc-text">set</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#dict"><span class="toc-number">9.</span> <span class="toc-text">dict</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#函数"><span class="toc-number">10.</span> <span class="toc-text">函数</span></a></li><li class="toc-item toc-level-4"><a class="toc-link" href="#列表生成式"><span class="toc-number">11.</span> <span class="toc-text">列表生成式</span></a><ol class="toc-child"><li class="toc-item toc-level-5"><a class="toc-link" href="#生成列表"><span class="toc-number">11.1.</span> <span class="toc-text">生成列表</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#复杂表达式"><span class="toc-number">11.2.</span> <span class="toc-text">复杂表达式</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#条件过滤"><span class="toc-number">11.3.</span> <span class="toc-text">条件过滤</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#多层表达式"><span class="toc-number">11.4.</span> <span class="toc-text">多层表达式</span></a></li></ol></li></ol>
+        
+    </div>
+    <style>
+        .left-col .switch-btn,
+        .left-col .switch-area {
+            display: none;
+        }
+        .toc-level-3 i,
+        .toc-level-3 ol {
+            display: none !important;
+        }
+    </style>
+
+    <input type="button" id="tocButton" value="隐藏目录" title="点击按钮隐藏或者显示文章目录">
+
+    <script>
+        yiliaConfig.toc = ["隐藏目录", "显示目录", !!"false"];
+    </script>
+
+
+
+    
+<div class="share">
+    
+        <div class="bdsharebuttonbox">
+            <a href="#" class="fa fa-twitter bds_twi" data-cmd="twi" title="分享到推特"></a>
+            <a href="#" class="fa fa-weibo bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a>
+            <a href="#" class="fa fa-qq bds_sqq" data-cmd="sqq" title="分享给 QQ 好友"></a>
+            <a href="#" class="fa fa-files-o bds_copy" data-cmd="copy" title="复制网址"></a>
+            <a href="#" class="fa fa fa-envelope-o bds_mail" data-cmd="mail" title="通过邮件分享"></a>
+            <a href="#" class="fa fa-weixin bds_weixin" data-cmd="weixin" title="生成文章二维码"></a>
+            <a href="#" class="fa fa-share-alt bds_more" data-cmd="more"></a>
+        </div>
+        <script>
+            window._bd_share_config={
+                "common":{"bdSnsKey":{},"bdText":"python基础　| Hexo　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+        </script>
+    
+
+    
+</div>
+
+
+
+
+
+
+
+    
+
+
+
+
+    <div class="scroll" id="post-nav-button">
+        
+            <a href="/2019/03/01/mysql安装/" title="上一篇: mysql安装">
+                <i class="fa fa-angle-left"></i>
+            </a>
+        
+
+        <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
+
+        
+            <a href="/2019/02/17/http-状态码/" title="下一篇: http 状态码">
+                <i class="fa fa-angle-right"></i>
+            </a>
+        
+    </div>
+
+    <ul class="post-list"><li class="post-list-item"><a class="post-list-link" href="/2019/03/01/mysql安装/">mysql安装</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/02/28/python基础/">python基础</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/02/17/http-状态码/">http 状态码</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/02/11/变量值互换/">变量值互换</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/02/03/typescript-泛型/">typescript 泛型</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/01/12/Hexo-GitHub-pages-个人博客搭建/">Hexo + GitHub pages 个人博客搭建</a></li><li class="post-list-item"><a class="post-list-link" href="/2019/01/12/hello-world/">Hello World</a></li></ul>
+
+
+
+
+    <script>
+        
+    </script>
+</div>
+      <footer id="footer">
+    <div class="outer">
+        <div id="footer-info">
+            <div class="footer-left">
+                <i class="fa fa-copyright"></i> 
+                2016-2019 rookie
+            </div>
+            <div class="footer-right">
+                <a href="http://hexo.io/" target="_blank" title="快速、简洁且高效的博客框架">Hexo</a>  Theme <a href="https://github.com/MOxFIVE/hexo-theme-yelee" target="_blank" title="简而不减 Hexo 双栏博客主题  v3.5">Yelee</a> by MOxFIVE <i class="fa fa-heart animated infinite pulse"></i>
+            </div>
+        </div>
+        
+            <div class="visit">
+                
+                    <span id="busuanzi_container_site_pv" style="display:none">
+                        <span id="site-visit" title="本站到访数"><i class="fa fa-user" aria-hidden="true"></i><span id="busuanzi_value_site_uv"></span>
+                        </span>
+                    </span>
+                
+                
+                    <span>| </span>
+                
+                
+                    <span id="busuanzi_container_page_pv" style="display:none">
+                        <span id="page-visit" title="本页阅读量"><i class="fa fa-eye animated infinite pulse" aria-hidden="true"></i><span id="busuanzi_value_page_pv"></span>
+                        </span>
+                    </span>
+                
+            </div>
+        
+    </div>
+</footer>
+    </div>
+    
+<script data-main="/js/main.js" src="//cdn.bootcss.com/require.js/2.2.0/require.min.js"></script>
+
+    <script>
+        $(document).ready(function() {
+            var iPad = window.navigator.userAgent.indexOf('iPad');
+            if (iPad > -1 || $(".left-col").css("display") === "none") {
+                var bgColorList = ["#9db3f4", "#414141", "#e5a859", "#f5dfc6", "#c084a0", "#847e72", "#cd8390", "#996731"];
+                var bgColor = Math.ceil(Math.random() * (bgColorList.length - 1));
+                $("body").css({"background-color": bgColorList[bgColor], "background-size": "cover"});
+            }
+            else {
+                var backgroundnum = 5;
+                var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+                $("body").css({"background": backgroundimg, "background-attachment": "fixed", "background-size": "cover"});
+            }
+        })
+    </script>
+
+
+
+
+
+<div class="scroll" id="scroll">
+    <a href="#" title="返回顶部"><i class="fa fa-arrow-up"></i></a>
+    <a href="#comments" onclick="load$hide();" title="查看评论"><i class="fa fa-comments-o"></i></a>
+    <a href="#footer" title="转到底部"><i class="fa fa-arrow-down"></i></a>
+</div>
+<script>
+    // Open in New Window
+    
+        var oOpenInNew = {
+            
+            
+            
+            
+            
+            
+            
+             miniArchives: "a.post-list-link", 
+            
+             friends: "#js-friends a", 
+             socail: ".social a" 
+        }
+        for (var x in oOpenInNew) {
+            $(oOpenInNew[x]).attr("target", "_blank");
+        }
+    
+</script>
+
+<script async src="https://dn-lbstatics.qbox.me/busuanzi/2.3/busuanzi.pure.mini.js">
+</script>
+  </div>
+</body>
+</html>

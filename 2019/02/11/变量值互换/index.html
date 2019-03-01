@@ -15,18 +15,17 @@
 
 
 
-<meta name="description" content="出来工作几年了，然而之前都没有写过博客。作为一名程序猿实在是有失身份……搭建起来的，虽然网上依然有一堆的教程，但为了给自己写第一篇博客找个切入点。毕尽真不知道改写些什么，再者就是为了给自己加深印象了咳咳～废话也不多说了，下面就开始懒癌的我的第一篇博客也就是记录怎么把这个博客  安装Hexo1npm i -g hexo-cli 创建">
-<meta name="keywords" content="blog,随笔">
+<meta name="description" content="变量值互换的方法很多，最简单的大概就是通过中间变量实现其余两个变量的值交换吧。思路清晰，切简单易懂，缺点嘛就是会产生一个多余的变量了1234567var a = 2,  b = 3,  c;c = a;a = b;b = c; 既然这么说了，那当然就有不用通过中间变量来交换值的方法辣 1、求和123456var a = 2,  b = 3;a += b;b = a - b;a = a -">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Hexo + GitHub pages 个人博客搭建">
-<meta property="og:url" content="http://yoursite.com/2019/01/12/Hexo-GitHub-pages-个人博客搭建/index.html">
+<meta property="og:title" content="变量值互换">
+<meta property="og:url" content="http://yoursite.com/2019/02/11/变量值互换/index.html">
 <meta property="og:site_name" content="Hexo">
-<meta property="og:description" content="出来工作几年了，然而之前都没有写过博客。作为一名程序猿实在是有失身份……搭建起来的，虽然网上依然有一堆的教程，但为了给自己写第一篇博客找个切入点。毕尽真不知道改写些什么，再者就是为了给自己加深印象了咳咳～废话也不多说了，下面就开始懒癌的我的第一篇博客也就是记录怎么把这个博客  安装Hexo1npm i -g hexo-cli 创建">
+<meta property="og:description" content="变量值互换的方法很多，最简单的大概就是通过中间变量实现其余两个变量的值交换吧。思路清晰，切简单易懂，缺点嘛就是会产生一个多余的变量了1234567var a = 2,  b = 3,  c;c = a;a = b;b = c; 既然这么说了，那当然就有不用通过中间变量来交换值的方法辣 1、求和123456var a = 2,  b = 3;a += b;b = a - b;a = a -">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2019-01-14T08:20:55.936Z">
+<meta property="og:updated_time" content="2019-02-11T13:46:31.731Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Hexo + GitHub pages 个人博客搭建">
-<meta name="twitter:description" content="出来工作几年了，然而之前都没有写过博客。作为一名程序猿实在是有失身份……搭建起来的，虽然网上依然有一堆的教程，但为了给自己写第一篇博客找个切入点。毕尽真不知道改写些什么，再者就是为了给自己加深印象了咳咳～废话也不多说了，下面就开始懒癌的我的第一篇博客也就是记录怎么把这个博客  安装Hexo1npm i -g hexo-cli 创建">
+<meta name="twitter:title" content="变量值互换">
+<meta name="twitter:description" content="变量值互换的方法很多，最简单的大概就是通过中间变量实现其余两个变量的值交换吧。思路清晰，切简单易懂，缺点嘛就是会产生一个多余的变量了1234567var a = 2,  b = 3,  c;c = a;a = b;b = c; 既然这么说了，那当然就有不用通过中间变量来交换值的方法辣 1、求和123456var a = 2,  b = 3;a += b;b = a - b;a = a -">
 
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
 
@@ -58,7 +57,7 @@
 <link href="//cdn.bootcss.com/font-awesome/4.6.3/css/font-awesome.min.css" rel="stylesheet">
 
 
-<title>Hexo + GitHub pages 个人博客搭建 | Hexo</title>
+<title>变量值互换 | Hexo</title>
 
 <script src="//cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
 <script src="//cdn.bootcss.com/clipboard.js/1.5.10/clipboard.min.js"></script>
@@ -258,11 +257,11 @@
     </div>
     <link class="menu-list" tags="标签" friends="友情链接" about="关于我">
 </nav>
-      <div class="body-wrap"><article id="post-Hexo-GitHub-pages-个人博客搭建" class="article article-type-post" itemscope="" itemprop="blogPost">
+      <div class="body-wrap"><article id="post-变量值互换" class="article article-type-post" itemscope="" itemprop="blogPost">
   
     <div class="article-meta">
-      <a href="/2019/01/12/Hexo-GitHub-pages-个人博客搭建/" class="article-date">
-      <time datetime="2019-01-12T07:11:30.000Z" itemprop="datePublished">2019-01-12</time>
+      <a href="/2019/02/11/变量值互换/" class="article-date">
+      <time datetime="2019-02-11T12:38:36.000Z" itemprop="datePublished">2019-02-11</time>
 </a>
 
 
@@ -277,7 +276,7 @@
         
   
     <h1 class="article-title" itemprop="name">
-      Hexo + GitHub pages 个人博客搭建
+      变量值互换
     </h1>
   
 
@@ -287,10 +286,6 @@
         
 
         
-    <div class="article-tag tagcloud">
-        <ul class="article-tag-list"><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/blog/">blog</a></li><li class="article-tag-list-item"><a class="article-tag-list-link" href="/tags/随笔/">随笔</a></li></ul>
-    </div>
-
         <div class="clearfix"></div>
       </div>
       
@@ -298,10 +293,17 @@
     <div class="article-entry" itemprop="articleBody">
       
           
-        <p>出来工作几年了，然而之前都没有写过博客。作为一名程序猿实在是有失身份……<br>搭建起来的，虽然网上依然有一堆的教程，但为了给自己写第一篇博客找个切入点。毕<br>尽真不知道改写些什么，再者就是为了给自己加深印象了<br>咳咳～废话也不多说了，下面就开始懒癌的我的第一篇博客也就是记录怎么把这个博客</p>
-<hr>
-<h2 id="安装Hexo"><a href="#安装Hexo" class="headerlink" title="安装Hexo"></a>安装Hexo</h2><figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i -g hexo-cli</span><br></pre></td></tr></table></figure>
-<h2 id="创建"><a href="#创建" class="headerlink" title="创建"></a>创建</h2>
+        <p>变量值互换的方法很多，最简单的大概就是通过中间变量实现其余两个变量的值交换吧。思路清晰，切简单易懂，缺点嘛就是会产生一个多余的变量了<br><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">2</span>,</span><br><span class="line">  b = <span class="number">3</span>,</span><br><span class="line">  c;</span><br><span class="line"></span><br><span class="line">c = a;</span><br><span class="line">a = b;</span><br><span class="line">b = c;</span><br></pre></td></tr></table></figure></p>
+<p>既然这么说了，那当然就有不用通过中间变量来交换值的方法辣</p>
+<h5 id="1、求和"><a href="#1、求和" class="headerlink" title="1、求和"></a>1、求和</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">2</span>,</span><br><span class="line">  b = <span class="number">3</span>;</span><br><span class="line"></span><br><span class="line">a += b;</span><br><span class="line">b = a - b;</span><br><span class="line">a = a - b;</span><br></pre></td></tr></table></figure>
+<h5 id="2、对象"><a href="#2、对象" class="headerlink" title="2、对象"></a>2、对象</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">2</span>,</span><br><span class="line">  b = <span class="number">3</span>;</span><br><span class="line"></span><br><span class="line">a = &#123;<span class="attr">a</span>: a, <span class="attr">b</span>: b&#125;;</span><br><span class="line">b = a.b;</span><br><span class="line">a = a.a;</span><br></pre></td></tr></table></figure>
+<h5 id="3、数组"><a href="#3、数组" class="headerlink" title="3、数组"></a>3、数组</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">2</span>,</span><br><span class="line">  b = <span class="number">3</span>;</span><br><span class="line"></span><br><span class="line">a = [a, b];</span><br><span class="line">b = a[<span class="number">0</span>];</span><br><span class="line">a = b[<span class="number">1</span>];</span><br></pre></td></tr></table></figure>
+<h5 id="4、万能法（实际上就是运用了运算符优先级的数组换值方式）"><a href="#4、万能法（实际上就是运用了运算符优先级的数组换值方式）" class="headerlink" title="4、万能法（实际上就是运用了运算符优先级的数组换值方式）"></a>4、万能法（实际上就是运用了运算符优先级的数组换值方式）</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">2</span>,</span><br><span class="line">  b = <span class="number">3</span>;</span><br><span class="line"></span><br><span class="line">a = [b, b = a][<span class="number">0</span>];</span><br></pre></td></tr></table></figure>
+<h5 id="5、赋值解构"><a href="#5、赋值解构" class="headerlink" title="5、赋值解构"></a>5、赋值解构</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">2</span>,</span><br><span class="line">  b = <span class="number">3</span>;</span><br><span class="line"></span><br><span class="line">[a, b] = [b, a];</span><br></pre></td></tr></table></figure>
+<h5 id="6、利用try-catch交换-个人认为这个当作知识点知道就好了，是在是想不到为什么要在实际coding使用这种方式"><a href="#6、利用try-catch交换-个人认为这个当作知识点知道就好了，是在是想不到为什么要在实际coding使用这种方式" class="headerlink" title="6、利用try catch交换(=_=个人认为这个当作知识点知道就好了，是在是想不到为什么要在实际coding使用这种方式)"></a>6、利用try catch交换(=_=个人认为这个当作知识点知道就好了，是在是想不到为什么要在实际coding使用这种方式)</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">2</span>,</span><br><span class="line">  b = <span class="number">3</span>;</span><br><span class="line"></span><br><span class="line">a = (<span class="function"><span class="keyword">function</span> (<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">try</span> &#123;</span><br><span class="line">    <span class="keyword">return</span> b;</span><br><span class="line">  &#125; <span class="keyword">finally</span> &#123;</span><br><span class="line">    b = a;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;())</span><br></pre></td></tr></table></figure>
+<h5 id="7、异或运算-实际上我一开始没懂，另外这种方式针对number的互换"><a href="#7、异或运算-实际上我一开始没懂，另外这种方式针对number的互换" class="headerlink" title="7、异或运算(=_=实际上我一开始没懂，另外这种方式针对number的互换)"></a>7、异或运算(=_=实际上我一开始没懂，另外这种方式针对number的互换)</h5><figure class="highlight js"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">var</span> a = <span class="number">2</span>,  <span class="comment">//0010</span></span><br><span class="line">  b = <span class="number">3</span>,  <span class="comment">//0101</span></span><br><span class="line"></span><br><span class="line">a = a ^ b;  <span class="comment">//0111</span></span><br><span class="line">b = a ^ b;  <span class="comment">//0010</span></span><br><span class="line">a = a ^ b;  <span class="comment">//0101</span></span><br></pre></td></tr></table></figure>
+<p>原文出至<a href="https://www.jianshu.com/p/fb863e73862f" target="_blank" rel="noopener">js两个变量互换值，你了解多少</a></p>
+
       
     </div>
     
@@ -309,13 +311,13 @@
   
     
     <div class="copyright">
-        <p><span>本文标题:</span><a href="/2019/01/12/Hexo-GitHub-pages-个人博客搭建/">Hexo + GitHub pages 个人博客搭建</a></p>
+        <p><span>本文标题:</span><a href="/2019/02/11/变量值互换/">变量值互换</a></p>
         <p><span>文章作者:</span><a href="/" title="回到主页">rookie</a></p>
-        <p><span>发布时间:</span>2019-01-12, 15:11:30</p>
-        <p><span>最后更新:</span>2019-01-14, 16:20:55</p>
+        <p><span>发布时间:</span>2019-02-11, 20:38:36</p>
+        <p><span>最后更新:</span>2019-02-11, 21:46:31</p>
         <p>
-            <span>原始链接:</span><a class="post-url" href="/2019/01/12/Hexo-GitHub-pages-个人博客搭建/" title="Hexo + GitHub pages 个人博客搭建">http://yoursite.com/2019/01/12/Hexo-GitHub-pages-个人博客搭建/</a>
-            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2019/01/12/Hexo-GitHub-pages-个人博客搭建/　　作者: rookie" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
+            <span>原始链接:</span><a class="post-url" href="/2019/02/11/变量值互换/" title="变量值互换">http://yoursite.com/2019/02/11/变量值互换/</a>
+            <span class="copy-path" data-clipboard-text="原文: http://yoursite.com/2019/02/11/变量值互换/　　作者: rookie" title="点击复制文章链接"><i class="fa fa-clipboard"></i></span>
             <script> var clipboard = new Clipboard('.copy-path'); </script>
         </p>
         <p>
@@ -328,15 +330,15 @@
     <nav id="article-nav">
         
             <div id="article-nav-newer" class="article-nav-title">
-                <a href="/2019/02/03/typescript-泛型/">
-                    typescript 泛型
+                <a href="/2019/02/17/http-状态码/">
+                    http 状态码
                 </a>
             </div>
         
         
             <div id="article-nav-older" class="article-nav-title">
-                <a href="/2019/01/12/hello-world/">
-                    Hello World
+                <a href="/2019/02/03/typescript-泛型/">
+                    typescript 泛型
                 </a>
             </div>
         
@@ -348,7 +350,7 @@
     <div id="toc" class="toc-article">
         <strong class="toc-title">文章目录</strong>
         
-            <ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#安装Hexo"><span class="toc-number">1.</span> <span class="toc-text">安装Hexo</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#创建"><span class="toc-number">2.</span> <span class="toc-text">创建</span></a></li></ol>
+            <ol class="toc"><li class="toc-item toc-level-5"><a class="toc-link" href="#1、求和"><span class="toc-number">1.</span> <span class="toc-text">1、求和</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#2、对象"><span class="toc-number">2.</span> <span class="toc-text">2、对象</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#3、数组"><span class="toc-number">3.</span> <span class="toc-text">3、数组</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#4、万能法（实际上就是运用了运算符优先级的数组换值方式）"><span class="toc-number">4.</span> <span class="toc-text">4、万能法（实际上就是运用了运算符优先级的数组换值方式）</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#5、赋值解构"><span class="toc-number">5.</span> <span class="toc-text">5、赋值解构</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#6、利用try-catch交换-个人认为这个当作知识点知道就好了，是在是想不到为什么要在实际coding使用这种方式"><span class="toc-number">6.</span> <span class="toc-text">6、利用try catch交换(=_=个人认为这个当作知识点知道就好了，是在是想不到为什么要在实际coding使用这种方式)</span></a></li><li class="toc-item toc-level-5"><a class="toc-link" href="#7、异或运算-实际上我一开始没懂，另外这种方式针对number的互换"><span class="toc-number">7.</span> <span class="toc-text">7、异或运算(=_=实际上我一开始没懂，另外这种方式针对number的互换)</span></a></li></ol>
         
     </div>
     <style>
@@ -384,7 +386,7 @@
         </div>
         <script>
             window._bd_share_config={
-                "common":{"bdSnsKey":{},"bdText":"Hexo + GitHub pages 个人博客搭建　| Hexo　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
+                "common":{"bdSnsKey":{},"bdText":"变量值互换　| Hexo　","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];
         </script>
     
 
@@ -404,7 +406,7 @@
 
     <div class="scroll" id="post-nav-button">
         
-            <a href="/2019/02/03/typescript-泛型/" title="上一篇: typescript 泛型">
+            <a href="/2019/02/17/http-状态码/" title="上一篇: http 状态码">
                 <i class="fa fa-angle-left"></i>
             </a>
         
@@ -412,7 +414,7 @@
         <a title="文章列表"><i class="fa fa-bars"></i><i class="fa fa-times"></i></a>
 
         
-            <a href="/2019/01/12/hello-world/" title="下一篇: Hello World">
+            <a href="/2019/02/03/typescript-泛型/" title="下一篇: typescript 泛型">
                 <i class="fa fa-angle-right"></i>
             </a>
         
